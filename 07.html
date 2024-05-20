@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            height: 330px;
+            width: 220px;
+            background-color: #f1f1f1;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .box:hover{
+            z-index: 2;
+        }  
+        .card-1{
+            background-color: yellowgreen;
+        }
+        .card-2{
+            margin-top: 55px;
+            background-color: blue;
+            margin-left: 40px; 
+        }
+        .card-3{
+            position: absolute;
+            margin-top: 105px;
+            background-color: blueviolet;
+            margin-left: 70px;
+        }
+        img{
+            background-color: #1f1f1f;
+            width: 150px;
+            height: 200px;
+        }
+
+        
+    
+
+    </style>
+</head>
+<body>
+     <h1>Hover To Unveil The Pokemon</h1>
+    <div class="main"> 
+        <div class="card-1 box">
+            <h1>Card 1</h1>
+            <img src="https://pngimg.com/uploads/pokemon/small/pokemon_PNG160.png" alt="pokemon 1">
+        </div>
+        <div class="card-2 box">
+            <h1>Card 2</h1>             
+            <img src="https://pngimg.com/uploads/pokemon/small/pokemon_PNG93.png" alt="pokemon 2">        
+    </div>
+        <div class="card-3 box">
+            <h1>Card 3</h1>            
+            <img src="https://pngimg.com/uploads/pokemon/small/pokemon_PNG106.png" alt="pokemon image">
+        </div>
+            
+    </div>
+</body>
+</html>
